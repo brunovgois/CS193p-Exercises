@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C8AF64B927547F5F008D9B0D /* Memory_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AF64B827547F5F008D9B0D /* Memory_GameApp.swift */; };
-		C8AF64BB27547F5F008D9B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AF64BA27547F5F008D9B0D /* ContentView.swift */; };
 		C8AF64BD27547F69008D9B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AF64BC27547F69008D9B0D /* Assets.xcassets */; };
 		C8AF64C027547F69008D9B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AF64BF27547F69008D9B0D /* Preview Assets.xcassets */; };
+		C8AF64C92755F341008D9B0D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AF64C82755F341008D9B0D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8AF64B527547F5F008D9B0D /* Memory Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AF64B827547F5F008D9B0D /* Memory_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory_GameApp.swift; sourceTree = "<group>"; };
-		C8AF64BA27547F5F008D9B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8AF64BC27547F69008D9B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8AF64BF27547F69008D9B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8AF64C82755F341008D9B0D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameView.swift; path = "Memory Game/GameView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +52,12 @@
 			isa = PBXGroup;
 			children = (
 				C8AF64B827547F5F008D9B0D /* Memory_GameApp.swift */,
-				C8AF64BA27547F5F008D9B0D /* ContentView.swift */,
+				C8AF64C82755F341008D9B0D /* GameView.swift */,
 				C8AF64BC27547F69008D9B0D /* Assets.xcassets */,
 				C8AF64BE27547F69008D9B0D /* Preview Content */,
 			);
 			path = "Memory Game";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		C8AF64BE27547F69008D9B0D /* Preview Content */ = {
 			isa = PBXGroup;
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AF64BB27547F5F008D9B0D /* ContentView.swift in Sources */,
+				C8AF64C92755F341008D9B0D /* GameView.swift in Sources */,
 				C8AF64B927547F5F008D9B0D /* Memory_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
